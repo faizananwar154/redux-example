@@ -65,7 +65,7 @@ function fetchBlogs() {
                 dispatch(fetchBlogsSuccess(blogs.map(blog => blog.id)))
             })
             .catch(error => {
-                dispatch(fetchBlogsSuccess(error))
+                dispatch(fetchBlogsFailure(error))
             })
     }
 }
