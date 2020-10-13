@@ -1,1 +1,1 @@
-# redux-example
+# Redux Example
