@@ -50,7 +50,7 @@ function reducer(prevState = initialSate, action){
             ...prevState,
             loading: false,
             blogs: [],
-            blogs: action.payload
+            error: action.payload
         }
         default: return prevState
     }
